@@ -67,7 +67,7 @@ const Footer = ({ content = {} }) => {
           <div>
             <h4 className="text-white font-medium mb-4 text-base">Follow Us</h4>
             <div className="flex space-x-4">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-spice-green transition-colors">
+              <a href="https://facebook.com/61579647209202/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-spice-green transition-colors">
                 <FaFacebook className="w-5 h-5" />
               </a>
               <a href="https://instagram.com/spice_trails_ltd" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-spice-green transition-colors">
