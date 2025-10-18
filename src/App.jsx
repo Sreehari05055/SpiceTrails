@@ -17,7 +17,7 @@ function App() {
     },
     contact: {
       title: 'Visit Us',
-      address: '30 Union Street, Hereford, HR1 1BT',
+      address: '30 Union Street, Hereford, HR1 2BT',
       phone: '01432 123456',
       email: 'quickspicetrails@gmail.com',
       hours: 'Mon-Sun 8AM-10PM'
