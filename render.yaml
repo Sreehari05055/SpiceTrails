@@ -1,0 +1,12 @@
+# Render Blueprint for Spice Trails
+# Reference: https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: spicetrails
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./build
+    envVars:
+      - key: NODE_VERSION
+        value: 18.x
