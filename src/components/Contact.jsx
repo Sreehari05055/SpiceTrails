@@ -85,7 +85,7 @@ const Contact = ({ content = {} }) => {
               <div className="mt-8">
                 <h4 className="text-lg font-semibold text-gray-900 mb-4">Find Us</h4>
                 <a 
-                  href="https://www.google.com/maps?q=Spice+trails+30+Union+St+Hereford+HR1+2BT"
+                  href="https://www.google.com/maps?q=Spicetrails+30+Union+St+Hereford+HR1+2BT"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full h-48 bg-gray-200 rounded-lg flex items-center justify-center hover:bg-gray-300 transition-colors duration-200 group"

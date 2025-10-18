@@ -51,7 +51,7 @@ const Hero = ({ content }) => {
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a 
-                    href="https://www.google.com/maps?q=Spice+trails+30+Union+St+Hereford+HR1+2BT"
+                    href="https://www.google.com/maps?q=Spicetrails+30+Union+St+Hereford+HR1+2BT"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="border-2 border-spice-green text-spice-green hover:bg-spice-green hover:text-white font-semibold py-4 px-8 rounded-xl transition-all duration-200 text-center"

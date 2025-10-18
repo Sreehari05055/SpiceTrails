@@ -40,7 +40,7 @@ const Footer = ({ content = {} }) => {
               <li className="flex items-start">
                 <FaMapMarkerAlt className="text-spice-green mt-1 mr-2 flex-shrink-0" />
                 <a 
-                  href="https://www.google.com/maps?q=Spice+trails+30+Union+St+Hereford+HR1+2BT"
+                  href="https://www.google.com/maps?q=Spicetrails+30+Union+St+Hereford+HR1+2BT"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-spice-green text-sm"
