@@ -2,7 +2,7 @@ const Contact = ({ content = {} }) => {
   // Default values to prevent errors if content is undefined
   const {
     title = 'Visit Us',
-    address = '30 Union Street, Hereford, HR1 1BT',
+    address = '30 Union Street, Hereford, HR1 2BT',
     phone = '01432 123456',
     email = 'quickspicetrails@gmail.com',
     hours = 'Mon-Sun 8AM-10PM'
@@ -95,7 +95,7 @@ const Contact = ({ content = {} }) => {
                       <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22S19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9S10.62 6.5 12 6.5S14.5 7.62 14.5 9S13.38 11.5 12 11.5Z"/>
                     </svg>
                     <p className="text-gray-500 group-hover:text-gray-700 transition-colors duration-200">Click to open in Google Maps</p>
-                    <p className="text-sm text-gray-400 mt-1">30 Union Street, Hereford, HR1 1BT</p>
+                    <p className="text-sm text-gray-400 mt-1">30 Union Street, Hereford, HR1 2BT</p>
                   </div>
                 </a>
               </div>
