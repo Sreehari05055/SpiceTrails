@@ -18,7 +18,7 @@ const Footer = ({ content = {} }) => {
               <h3 className="text-xl font-bold text-white">Spice Trails</h3>
             </div>
             <p className="text-gray-400 text-sm">
-              Your one-stop shop for authentic global groceries in Hereford
+            Your destination for global essentials
             </p>
           </div>
 

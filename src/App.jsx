@@ -8,7 +8,7 @@ function App() {
   const [content] = useState({
     hero: {
       subtitle: 'Fresh Finds Daily',
-      description: 'Discover premium spices, fresh produce, and specialty groceries at our family-owned store in Hereford, bringing authentic global flavors straight to your kitchen.',
+      description: 'Your destination for global products, fresh produce, and unique finds in Hereford.',
       location: 'Hereford, UK',
       socialLinks: {
         facebook: 'https://facebook.com/61579647209202/',
@@ -18,7 +18,7 @@ function App() {
     },
     about: {
       title: 'About Spice Trails',
-      description: 'Welcome to Spice Trails, your one-stop shop for authentic global groceries. We take pride in bringing you the finest selection of spices, fresh produce, and specialty items from around the world, so you can experience diverse flavors and traditions right in your kitchen.'
+      description: 'Welcome to Spice Trails, your one-stop shop for authentic global groceries. We take pride in bringing you the finest selection of spices, fresh produce, and specialty items from around the world, all in one place, right here at our store in Hereford.'
     },
     contact: {
       title: 'Visit Us',
