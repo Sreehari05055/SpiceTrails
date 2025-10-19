@@ -3,13 +3,13 @@ const Contact = ({ content = {} }) => {
   const {
     title = 'Visit Us',
     address = '30 Union Street, Hereford, HR1 2BT',
-    phone = '01432 123456',
+    phone = '07741139030',
     email = 'quickspicetrails@gmail.com',
     hours = 'Mon-Sun 8AM-10PM'
   } = content;
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section id="contact" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">

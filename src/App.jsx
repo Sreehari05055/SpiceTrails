@@ -7,23 +7,28 @@ import Footer from './components/Footer'
 function App() {
   const [content] = useState({
     hero: {
-      subtitle: 'Your Local Indian Grocery Store',
-      description: 'Discover authentic Indian spices, fresh produce, and more at our family-owned store in Hereford.',
-      location: 'Hereford, UK'
+      subtitle: 'Fresh Finds Daily',
+      description: 'Discover premium spices, fresh produce, and specialty groceries at our family-owned store in Hereford, bringing authentic global flavors straight to your kitchen.',
+      location: 'Hereford, UK',
+      socialLinks: {
+        facebook: 'https://facebook.com/61579647209202/',
+        instagram: 'https://instagram.com/spice_trails_ltd',
+        whatsapp: 'https://wa.me/447741139030'
+      }
     },
     about: {
       title: 'About Spice Trails',
-      description: 'Welcome to Spice Trails, your one-stop shop for authentic Indian groceries and ingredients. We take pride in bringing you the finest selection of spices, fresh produce, and specialty items to bring the authentic taste of India to your kitchen.'
+      description: 'Welcome to Spice Trails, your one-stop shop for authentic global groceries. We take pride in bringing you the finest selection of spices, fresh produce, and specialty items from around the world, so you can experience diverse flavors and traditions right in your kitchen.'
     },
     contact: {
       title: 'Visit Us',
       address: '30 Union Street, Hereford, HR1 2BT',
-      phone: '01432 123456',
+      phone: '+447741139030',
       email: 'quickspicetrails@gmail.com',
       hours: 'Mon-Sun 8AM-10PM'
     },
     footer: {
-      copyright: '© 2023 Spice Trails. All rights reserved.'
+      copyright: '© 2025 Spice Trails. All rights reserved.'
     }
   })
 

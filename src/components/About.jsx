@@ -5,14 +5,13 @@ const About = ({ content = {} }) => {
     description = 'Learn more about our story and what makes us special.',
     features = [
       'Quality Products',
-      'Fresh Ingredients',
       'Authentic Taste',
       'Friendly Service'
     ]
   } = content;
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-50 to-green-50 relative overflow-hidden">
+    <section id="about" className="py-20 bg-gradient-to-br from-gray-50 to-green-50 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-0 right-0 w-64 h-64 bg-spice-green bg-opacity-5 rounded-full -translate-y-32 translate-x-32"></div>
       <div className="absolute bottom-0 left-0 w-48 h-48 bg-spice-yellow bg-opacity-5 rounded-full translate-y-24 -translate-x-24"></div>
@@ -35,7 +34,7 @@ const About = ({ content = {} }) => {
           
           {/* Features Grid - Only show if features exist */}
           {features && features.length > 0 && (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               {features.map((feature, index) => (
                 <div key={index} className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
                   <div className="w-20 h-20 bg-gradient-to-br from-spice-green to-spice-dark-green rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">

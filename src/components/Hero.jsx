@@ -1,3 +1,5 @@
+import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+
 const Hero = ({ content }) => {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-100 via-green-50 to-yellow-50 overflow-hidden">
@@ -57,6 +59,37 @@ const Hero = ({ content }) => {
                     className="border-2 border-spice-green text-spice-green hover:bg-spice-green hover:text-white font-semibold py-4 px-8 rounded-xl transition-all duration-200 text-center"
                   >
                     Visit Us Today
+                  </a>
+                </div>
+                
+                {/* Social Media Links */}
+                <div className="flex space-x-6 mt-6 pl-2">
+                  <a 
+                    href={content.socialLinks?.facebook} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-gray-600 hover:text-spice-green transition-colors"
+                    aria-label="Facebook"
+                  >
+                    <FaFacebook className="w-6 h-6" />
+                  </a>
+                  <a 
+                    href={content.socialLinks?.instagram} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-gray-600 hover:text-spice-green transition-colors"
+                    aria-label="Instagram"
+                  >
+                    <FaInstagram className="w-6 h-6" />
+                  </a>
+                  <a 
+                    href={content.socialLinks?.whatsapp} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-gray-600 hover:text-spice-green transition-colors"
+                    aria-label="WhatsApp"
+                  >
+                    <FaWhatsapp className="w-6 h-6" />
                   </a>
                 </div>
               </div>
